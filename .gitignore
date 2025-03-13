@@ -1,0 +1,54 @@
+# Игнорировать файлы, созданные Flutter и Dart
+
+# Файлы, созданные Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.vscode/
+
+# Логи
+*.log
+
+# Файлы, созданные Dart
+*.g.dart
+*.freezed.dart
+*.gr.dart
+*.chopper.dart
+*.mocks.dart
+*.config.dart
+
+# Android
+/android/app/google-services.json
+/android/gradle.properties
+/android/key.properties
+/android/key.jks
+
+# iOS
+/ios/Runner.xcworkspace/
+/ios/Flutter/.lastBuildId
+/ios/Pods/
+/ios/Podfile.lock
+
+# macOS
+/macos/Flutter/ephemeral/
+
+# Linux
+/linux/flutter/generated_plugins_registrant.cc
+/linux/flutter/generated_plugins_registrant.h
+
+# Web
+/build/
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Игнорировать файлы, созданные операционной системой
+.DS_Store
+Thumbs.db
